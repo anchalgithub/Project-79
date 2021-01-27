@@ -43,7 +43,7 @@ style={{width:20, height:20,}}
 );
 
 const switchNavigator = createSwitchNavigator({
-/*WelcomeScreen:{screen: WelcomeScreen},*/
+WelcomeScreen:{screen: WelcomeScreen},
 BottomTab:{screen: TabNavigator}
 })
 
